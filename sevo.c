@@ -25,6 +25,7 @@ typedef union Test_
 
 int main()
 {
+    printf("Sevo je peder");
     Test test = { 0x1234 };  // initializes first member
     printf("Bytes = %x %x\n", test.byte[0], test.byte[1]);
     printf("Byte-Order = %s\n", test.byte[0] == 0x12 ?
